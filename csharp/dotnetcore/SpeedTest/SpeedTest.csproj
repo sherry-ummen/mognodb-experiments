@@ -4,5 +4,13 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
+  <PropertyGroup>
+    <WarningsAsErrors></WarningsAsErrors>
+    <NoWarn>NU1605</NoWarn> 
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.7.3" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.7.3" />
+  </ItemGroup>
 
 </Project>
