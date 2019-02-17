@@ -1,0 +1,3 @@
+.\csharp\dotnetcore\SpeedTest\bin.*
+/csharp/dotnetcore/SpeedTest/.vscode/*
+/csharp/dotnetcore/SpeedTest/obj/*
